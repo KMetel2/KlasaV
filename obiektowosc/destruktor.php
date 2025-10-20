@@ -8,7 +8,7 @@
             $this -> name = $name;
         }
         function __destruct(){
-            echo "The gruit is {$this -> name}.";
+            echo "The fruit is {$this -> name}.";
         }
     }
     $apple = new fruit("Apple");
